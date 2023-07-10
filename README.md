@@ -1,11 +1,12 @@
+[![Run Selenium On GitHub Action](https://github.com/gafarovbr/test_ui/actions/workflows/Selenium-Action_Template.yaml/badge.svg)](https://github.com/gafarovbr/test_ui/actions/workflows/Selenium-Action_Template.yaml)
 # test_ui
 UI test python selenium
 
+Автоматизация тест-кейса введения верных логина и пароля для веб-сайта. 
+Использовался Python and Selenium 
 
-We test our site with Python and Selenium 
-
-For run test ude
+Для запуска теста используйте 
 
 ...
-python 
+python test_our_site.py
 ...
