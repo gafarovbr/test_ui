@@ -13,7 +13,7 @@ from selenium.webdriver.common.by import By
 # 5. Нажать кнопку start
 
 URL = 'https://www.saucedemo.com/'
-LOGIN = 'standard_user'
+LOGIN = 'standard_userr'
 PASSWORD = 'secret_sauce'
 
 def get_driver():
@@ -53,5 +53,4 @@ def login(driver, name, password):
 driver = get_driver()
 open_page(driver, URL)
 login(driver=driver, name=LOGIN, password=PASSWORD)
-pass
-# driver.quit()
+driver.quit()
